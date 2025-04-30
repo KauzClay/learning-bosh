@@ -1,0 +1,23 @@
+name: clay
+version: "1"
+commit_hash: fda68c9
+uncommitted_changes: false
+jobs:
+- name: server
+  version: 3911a25978ea805ab574afde476aba31eea1f19fb3752287fa1afce4ecd305d1
+  fingerprint: 3911a25978ea805ab574afde476aba31eea1f19fb3752287fa1afce4ecd305d1
+  sha1: sha256:cbcb6d1b37bfe3d0a707aacd76162a4f1e3af64600e629238bafb8d6852fdaa3
+  packages:
+  - server
+packages:
+- name: golang-1.24-linux
+  version: d742dc5eebc66113a186db2c1446ff5d646524cc798d1e74a56b684cffc53d35
+  fingerprint: d742dc5eebc66113a186db2c1446ff5d646524cc798d1e74a56b684cffc53d35
+  sha1: sha256:6f9779405aa938b56d2f36459738be64f7640ddc0afde8d8736416142f70b766
+  dependencies: []
+- name: server
+  version: 20169bf397c79f64b51c28a8fd61ad2efa40abfac6c28a6803edefed448519a9
+  fingerprint: 20169bf397c79f64b51c28a8fd61ad2efa40abfac6c28a6803edefed448519a9
+  sha1: sha256:4dbcff84bb4cdc56324e929721b60d1172592db6b83e52d14adcd2532e762326
+  dependencies:
+  - golang-1.24-linux
